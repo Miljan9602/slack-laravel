@@ -1,3 +1,4 @@
+Copyright (c) 2017-20xx, Alexander Chibrikin (alek13)  
 Copyright (c) 2014-2016, Regan McEntyre (maknz)
 All rights reserved.
 

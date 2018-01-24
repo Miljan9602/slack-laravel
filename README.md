@@ -1,6 +1,7 @@
 # Slack for Laravel
 
-This package allows you to use [Slack for PHP](https://github.com/maknz/slack) easily and elegantly in your Laravel 4 or 5 app. Read the instructions below to get setup, and then head on over to [Slack for PHP](https://github.com/maknz/slack) for usage details. **Note: this package is no longer being actively maintained.**
+This package allows you to use [Slack for PHP](https://github.com/alek13/slack) easily and elegantly in your Laravel 4 or 5 app.
+Read the instructions below to get setup, and then head on over to [Slack for PHP](https://github.com/alek13/slack) for usage details.
 
 ## Requirements
 
@@ -11,7 +12,7 @@ Laravel 4 or 5.
 You can install the package using the [Composer](https://getcomposer.org/) package manager. You can install it by running this command in your project root:
 
 ```sh
-composer require maknz/slack-laravel
+composer require alek13/slack-laravel
 ```
 
 Then [create an incoming webhook](https://my.slack.com/services/new/incoming-webhook) for each Slack team you'd like to send messages to. You'll need the webhook URL(s) in order to configure this package.
@@ -80,5 +81,5 @@ Slack::to('#accounting')->send('Are we rich yet?');
 Slack::to('@username')->send('psst!');
 ```
 
-Now head on over to [Slack for PHP](https://github.com/maknz/slack) for more examples, including attachments and message buttons.
+Now head on over to [Slack for PHP](https://github.com/alek13/slack) for more examples, including attachments and message buttons.
 
