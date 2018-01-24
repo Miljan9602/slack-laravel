@@ -22,5 +22,10 @@
             "Maknz\\Slack\\Laravel\\": "src/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
     "minimum-stability": "stable"
 }
