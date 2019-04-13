@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "miljan9602/slack": "~2.0@dev"
+        "miljan9602/slack": "^2.0"
     },
     "autoload": {
         "psr-4": {
